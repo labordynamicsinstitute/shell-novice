@@ -91,7 +91,7 @@ $codeblock-padding: 5px !default;
 
   margin: 15px 5px 10px 0;
 
-  h2 {
+  .objectives h3 {
     padding-top: $codeblock-padding;
     padding-bottom: $codeblock-padding;
     font-size: 20px;
@@ -100,7 +100,7 @@ $codeblock-padding: 5px !default;
     margin-top: 0px;
     margin-left: -$codeblock-padding; // to move back to the left margin of the enclosing blockquote
   }
-  h2:before {
+  .objectives h3:before {
     font-family: 'Glyphicons Halflings';
     content: $glyph;
     float: left;
