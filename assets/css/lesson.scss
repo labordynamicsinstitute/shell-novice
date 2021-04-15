@@ -91,7 +91,7 @@ $codeblock-padding: 5px !default;
 
   margin: 15px 5px 10px 0;
 
-  .objectives h3 {
+   h3 {
     padding-top: $codeblock-padding;
     padding-bottom: $codeblock-padding;
     font-size: 20px;
@@ -100,7 +100,7 @@ $codeblock-padding: 5px !default;
     margin-top: 0px;
     margin-left: -$codeblock-padding; // to move back to the left margin of the enclosing blockquote
   }
-  .objectives h3:before {
+    h3:before {
     font-family: 'Glyphicons Halflings';
     content: $glyph;
     float: left;
@@ -134,6 +134,7 @@ $codeblock-padding: 5px !default;
 font-size: 18px;
 }
 
+/*
 .challenge    { background-color: #eec27520; }
 .callout      { background-color: #f4fd9c20; }
 .challenge    { background-color: #eec27520; }
@@ -144,7 +145,7 @@ font-size: 18px;
 .prereq       { background-color: #9cd6dc20; }
 .solution     { background-color: #ded4b94d; }
 .testimonial  { background-color: #fc8dc120; }
-
+*/
 blockquote p {
     margin: 5px;
 }
