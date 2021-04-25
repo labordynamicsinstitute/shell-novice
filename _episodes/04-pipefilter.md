@@ -1,5 +1,5 @@
 ---
-title: "Pipes and Filters"
+title: "(Advanced) Pipes and Filters"
 teaching: 25
 exercises: 10
 questions:

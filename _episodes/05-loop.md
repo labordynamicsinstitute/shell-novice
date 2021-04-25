@@ -1,5 +1,5 @@
 ---
-title: "Loops"
+title: "(Advanced) Loops"
 teaching: 40
 exercises: 10
 questions:
