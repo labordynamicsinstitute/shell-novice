@@ -4,17 +4,9 @@ title: Setup
 root: .
 ---
 
-## Download files
-You need to download some files to follow this lesson.
-
-1. Download [data-shell.zip][zip-file] and move the file to your Desktop.
-2. Unzip/extract the file.
-   **Let your instructor know if you need help with this step**.
-   You should end up with a new folder called **`data-shell`** on your Desktop.
 
 ## Install software
-If you do not already have the shell software installed, you will need to
-[download and install][install_shell] it.
+If you do not already have the shell software (`Bash`) installed, you will need to install it. See the [Curriculum Setup Checklist](https://labordynamicsinstitute.github.io/replicability-training-curriculum/checklist.html).
 
 ## Open a new shell
 After installing the software
@@ -55,8 +47,8 @@ installed.
 In this lesson, we encourage you to use an emulator included in [Git for Windows][install_shell],
 which gives you access to both Bash shell commands and Git.
 
-Once installed, you can open a terminal by running the program Git Bash from the Windows start
-menu.
+Once installed, you can open a terminal by running the program "Git Bash" from the Windows start
+menu, or by right-clicking on any folder in the File Explorer and choosing "`Git Bash here`".
 
 **For advanced users:**
 

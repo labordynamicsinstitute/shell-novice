@@ -7,6 +7,7 @@
 <footer>
   <div class="row">
     <div class="col-md-6 copyright" align="left">
+	Lesson modified by <a href="https://www.ilr.cornell.edu/labor-dynamics-institute">Labor Dynamics Institute</a>.
 	{% if site.carpentry == "swc" %}
 	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2018–{{ 'now' | date: "%Y" }}
 	by <a href="{{ site.carpentries_site }}">The Carpentries</a>
@@ -36,9 +37,9 @@
 	<a href="{{repo_url}}/edit/{{ default_branch }}/{{page.path}}" data-checker-ignore>Edit on GitHub</a>
 	{% endif %}
 	/
-	<a href="{{ repo_url }}/blob/{{ source_branch }}/CONTRIBUTING.md" data-checker-ignore>Contributing</a>
+	<a href="{{ carpentries_github }}" data-checker-ignore>Contributing</a>
 	/
-	<a href="{{ repo_url }}/">Source</a>
+	<a href="{{ carpentries_github }}/">Source</a>
 	/
 	<a href="{{ repo_url }}/blob/{{ source_branch }}/CITATION" data-checker-ignore>Cite</a>
 	/
